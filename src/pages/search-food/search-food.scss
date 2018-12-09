@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,500,700');
+body{
+  font-family: 'Ubuntu', sans-serif;
+}
+a{
+  color: #17181C;
+}
+.home-back{
+  width: 100%;
+  position: relative;
+  height: 40%;
+  background: url("../../assets/img/food.jpg");
+  background-position: center center;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.home-back-input{
+  position: relative;
+  top: 65%;
+  width: 90%;
+  margin: 0px auto;
+  left: 13px;
+}
+input[type=text]{
+  font-family: 'Ubuntu', sans-serif;
+  color: #17181C;
+  font-weight: 500;
+  background-color: rgba(255, 255, 255, 0.9);
+  width: 80%;
+  float: left;
+  border-radius: 10px 0 0 10px;
+  border: none;
+  height: 50px;
+}
+.search-button{
+  float: left;
+  width: 10%;
+  padding: 16px;
+  background-color: rgba(255, 255, 255, 0.9);;
+  color: #17181C;
+  font-size: 17px;
+  cursor: pointer;
+  border-radius: 0 10px 10px 0;
+  outline: none;
+}
+.search-icon{
+  position: relative;
+  left: -10px;
+}
+.food-list{
+  position: relative;
+  width: 95%;
+  height: auto;
+  margin: auto;
+  font-family: 'Ubuntu', sans-serif;
+  color: #17181C;
+}
+.list-item:first-child{
+  margin-top: 10px;
+}
+.list-item{
+  float: left;
+  width: 100%;
+  height: 75px;
+  margin-bottom: 10px;
+}
+.food-body{
+  float: left;
+  width: 200px;
+  height: 75px;
+  padding-top: 13px;
+  padding-left: 20px;
+}
+.food-body h1{
+  margin: 0;
+  font-weight: 500;
+  font-size: 24px;  
+}
+.food-body p{
+  margin-top: -3px;
+  font-size: 14px;
+}
+.food-photo{
+  width: 75px;
+  height: 75px;
+  background-color: #17181C;
+  float: left;  
+  background: url("../../assets/img/hamburger.jpg");
+  background-position: center center;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.list-item .fa{
+  float: left;
+  margin-top: 17px;
+  font-size: 40px;
+  font-weight: 700;
+  color: #17181C;
+  margin-left: 50px;
+}
